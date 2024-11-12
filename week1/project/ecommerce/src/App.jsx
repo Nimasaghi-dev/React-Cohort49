@@ -1,4 +1,3 @@
-// src/App.jsx
 import { useState } from 'react';
 import allProducts from './fake-data/all-products.js';
 import ProductList from './components/ProductList';

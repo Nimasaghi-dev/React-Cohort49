@@ -1,4 +1,3 @@
-// src/components/CategoryList.jsx
 import React from 'react';
 
 const CategoryList = ({ categories, selectedCategory, onCategorySelect }) => {
