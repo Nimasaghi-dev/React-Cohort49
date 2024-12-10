@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
-
 import { useFavorites } from "../../contexts/FavoritesContext";
+import heartRegular from "../../assets/heart-regular.svg";
+import heartSolid from "../../assets/heart-solid.svg";
 import "./FavoriteButton.css";
 
 const FavoriteButton = ({ id }) => {
@@ -14,7 +15,7 @@ const FavoriteButton = ({ id }) => {
             aria-label={isFavorited ? "Remove from favorites" : "Add to favorites"}
         >
             <img
-                src={isFavorited ? "/assets/heart-solid.svg" : "/assets/heart-regular.svg"}
+                src={isFavorited ? heartSolid : heartRegular}
                 alt={isFavorited ? "Favorited" : "Not Favorited"}
             />
         </button>
