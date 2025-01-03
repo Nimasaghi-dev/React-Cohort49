@@ -1,16 +1,8 @@
-# Extreme hobbies
+# React + Vite
 
-There's nothing better than some extreme sports to get the blood pumping.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Take a look at the following:
+Currently, two official plugins are available:
 
-```js
-const hobbies = ["Surfing", "Rock climbing", "Mountain biking", "Breakdancing"];
-```
-
-1. Run `npm create vite` in this folder to create your environment
-2. Create 2 functional components: `<HobbyList>` and `<Hobby>`
-3. Put the `hobbies` variable into the `<HobbyList>` component.
-4. In the `return` statement of the `<HobbyList>` use the `map()` function to return an instance of `<Hobby>` for every hobby in the array
-5. Pass down the hobby string as a `prop` to the `<Hobby>` component (don't forget to add the `key` prop as well!)
-6. Test out if it works by importing it into the top level component, which in this case is `<App>`
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
